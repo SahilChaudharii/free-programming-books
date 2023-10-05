@@ -13,32 +13,34 @@
 
 ## 概要
 
-1. "一个可以轻易下载一本书的链接" 并不代表它指向的就是 *免费* 书籍。 请只提供免费内容。 确信你所提供的书籍是免费的。我们不接受指向*需要*工作电子邮件地址才能获取书籍的页面的链接，但我们欢迎有需求它们的列表。
+1. "轻松下载图书的链接 "并不一定是免费图书的链接。请只提供免费内容。确保是免费的。我们不接受需要工作电子邮件地址来获取书籍的页面链接，但我们欢迎要求提供电子邮件地址的列表。
 
-2. 你不需要会 Git：如果你发现了一些有趣的东西 *尚未出现在本仓库* 中，请开一个[Issue](https://github.com/EbookFoundation/free-programming-books/issues)进行主题讨论。
-    * 如果你已经知晓Git，请Fork本仓库并提交Pull Request (PR)。
+2.您不一定要懂 Git：如果您发现了一些感兴趣的内容，而本版本库中还没有，请打开一个 Issue，提出您的链接建议。
 
-3. 这里有6种列表，请选择正确的一个：
+3.如果您了解 Git，请叉入 repo 并发送 Pull Requests (PR)。
+我们有 6 种列表。请选择合适的一种：
 
-    * *Books* ：PDF、HTML、ePub、基于一个 gitbook.io的站点、一个Git仓库等等。
-    * *Courses* ：课程是一种学习材料，而不是一本书 [This is a course](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)。
-    * *Interactive Tutorials* ：一个交互式网站，它允许用户输入代码或命令并对结果进行评估。例如：[Try Haskell](http://tryhaskell.org)，[Try GitHub](http://try.github.io)。
-    * *Playgrounds* : Playgrounds 可能是学习编程的在线交互式网站、游戏或桌面软件。你可以在上面编写、编译、运行或分享代码片段。Playgrounds 通常允许你 fork 代码然后在其中尽情的编写代码。
-    * *Podcasts and Screencasts* ：播客和视频。
-    * *Problem Sets & Competitive Programming* ：一个网站或软件，让你通过解决简单或复杂的问题来评估你的编程技能，有或没有代码审查，有或没有与其他用户对比结果。
+•	书籍：PDF、HTML、ePub、基于 gitbook.io 的网站、Git 仓库等。
+•	课程：课程是一种学习材料，它不是一本书 [This is a course](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-              algorithms-fall-2011/)。
+•	*Interactive Tutorials* ：互动网站，让用户输入代码或命令，并对结果进行评估（"评估 "不是指 "评分"）。：[Try Haskell](http://tryhaskell.org)[Try GitHub](http://try.github.io)。
 
-4. 确保遵循下面的[基本准则](#基本准则)，并遵循本仓库文件的[Markdown规定格式](#规定格式)。
+•	Playgrounds : 在线互动网站、游戏或桌面软件，用于学习编程。可以编写、编译（或运行）和共享代码片段。游戏场通常允许你分叉，并通过玩代码弄脏自己的手。
+•	播客和截屏： 播客和截屏。
+•	Problem Sets & Competitive Programming（问题集与竞技编程）：一个网站或软件，让您通过解决简单或复杂的问题来评估自己的编程技能，无论是否进行代码审查，                    也无论是否与其他用户比较结果
+
+4. 确保按照(#基本准则)，并尊重 [Markdown规定格式](#规定格式)。
 
 5. GitHub Actions 将运行测试，以确保你的列表是 **按字母顺序排列** 的，并 **遵循格式化规则**。请 **确保** 你的更改通过了该测试。
-
+   
 
 ### 基本准则
 
-* 确保你提交的每一本书都是免费的。如有需要请做Double-check。如果你在PR中注明为什么你认为这本书是免费的，这将对管理员是很有帮助的。
-* 我们不接受存储在Google Drive、Dropbox、Mega、Scribd、Issuu和其他类似文件上传平台上的文件。
-* 请按照字母顺序插入链接, as described [below](#alphabetical-order).
-* 使用最权威来源的链接(意思是原作者的网站比编辑的网站好，比第三方网站好)。
-    * 没有文件托管服务(包括(但不限于)Dropbox和谷歌驱动器链接)。
+- 确保一本书是免费的。如有需要，请再三确认。如果您在 PR 中评论为什么您认为该书是免费的，会对管理员有所帮助。
+- 我们不接受托管在 Google Drive、Dropbox、Mega、Scribd、Isusuu 和其他类似文件上传平台上的文件。
+- 按字母顺序插入链接，如下所述。(#alphabetical-order).
+- 使用最权威来源的链接（即作者的网站优于编辑的网站，编辑的网站优于第三方网站）
+- 不使用文件托管服务（包括（但不限于）Dropbox 和 Google Drive 链接）
+
 * 优先选择使用 `https` 链接，而不是 `http` 链接 -- 只要它们位于相同的域并提供相同的内容。
 * 在根域上，去掉末尾的斜杠：使用 `http://example.com` 代替 `http://example.com/`。
 * 总是选择最短的链接：使用 `http://example.com/dir/` 比使用 `http://example.com/dir/index.html` 更好。
@@ -151,128 +153,127 @@
     正确：* [马上出版的一本书](http://example.com/book2.html) - 张显宗 (HTML) (:construction: *翻译中*)
     ```
 
-- <a id="archived"></a>Archived link:
+- <a id="archived"></a>存档链接：
 
     ```text
     正确: * [A Way-backed Interesting Book](https://web.archive.org/web/20211016123456/http://example.com/) - John Doe (HTML) *(:card_file_box: archived)*
     ```
 
-### Alphabetical order
+### 按字母顺序排列
 
-- When there are multiple titles beginning with the same letter order them by the second, and so on. For example: `aa` comes before `ab`.
-- `one two` comes before `onetwo`
+- 当有多个标题以相同字母开头时，按第二个字母顺序排列，以此类推。例如: `aa` 先于 `ab`.
+- `one two` 先于  `onetwo`
 
-If you see a misplaced link, check the linter error message to know which lines should be swapped.
-
-
-### Notes
-
-While the basics are relatively simple, there is a great diversity in the resources we list. Here are some notes on how we deal with this diversity.
+如果发现链接错位，请查看链接器的错误信息，了解哪些行应该互换。
 
 
-#### Metadata
+### 注意事项
 
-Our lists provide a minimal set of metadata: titles, URLs, creators, platforms, and access notes.
-
-
-##### Titles
-
-- No invented titles. We try to take titles from the resources themselves; contributors are admonished not to invent titles or use them editorially if this can be avoided. An exception is for older works; if they are primarily of historical interest, a year in parentheses appended to the title helps users know if they are of interest.
-- No ALLCAPS titles. Usually title case is appropriate, but when doubt use the capitalization from the source
-- No emojis.
+虽然基础知识相对简单，但我们列出的资源却多种多样。下面是我们如何处理这种多样性的一些说明。
 
 
-##### URLs
+#### 元数据
 
-- We don't permit shortened URLs.
-- Tracking codes must be removed from the URL.
-- International URLs should be escaped. Browser bars typically render these to Unicode, but use copy and paste, please.
-- Secure (`https`) URLs are always preferred over non-secure (`http`) urls where HTTPS has been implemented.
-- We don't like URLs that point to webpages that don't host the listed resource, but instead point elsewhere.
+我们的列表提供了一套最基本的元数据：标题、URL、创建者、平台和访问说明。
 
 
-##### Creators
+##### 标题
 
-- We want to credit the creators of free resources where appropriate, including translators!
-- For translated works the original author should be credited. We recommend using [MARC relators](https://loc.gov/marc/relators/relaterm.html) to credit creators other than authors, as in this example:
+- 没有杜撰的标题。我们尽量使用资源本身的标题；我们告诫投稿人不要编造标题，如果可以避免的话，也不要在编辑时使用标题。但较早的作品例外；如果这些作品主要是历史性的，则在标题后的括号中加上年份，以帮助用户了解这些作品是否值得关注。
+- 不使用 ALLCAPS 标题。通常标题大小写是合适的，但如果有疑问，请使用来源的大写字母。
+- 不使用表情符号。
 
-    ```markdown
-    * [A Translated Book](http://example.com/book-zh.html) - John Doe, `trl.:` Mike The Translator
+
+##### 网址
+
+- 我们不允许缩短 URL。
+- 必须删除 URL 中的跟踪代码。
+- 国际网址应转义。浏览器栏通常会将其转换为 Unicode，但请使用复制和粘贴。
+- 在已实施 HTTPS 的情况下，安全 (`https`)URL 始终优于非安全 (`http`)URL。
+- 我们不喜欢指向不包含所列资源、而是指向其他地方的网页的 URL。
+
+
+##### 创建者
+
+- 我们希望在适当的地方注明免费资源创建者的姓名，包括翻译者！
+- 对于翻译作品，应注明原作者。我们建议使用[MARC relators](https://loc.gov/marc/relators/relaterm.html)来标明作者以外的创作者，如本示例：
+
+    ``标记
+    * [一本翻译过的书](http://example.com/book-zh.html) - 无名氏，"翻译 "迈克
     ```
 
-    here, the annotation `trl.:` uses the MARC relator code for "translator".
-- Use a comma `,` to delimit each item in the author list.
-- You can shorten author lists with "`et al.`".
-- We do not permit links for Creators.
-- For compilation or remixed works, the "creator" may need a description. For example, "GoalKicker" or "RIP Tutorial" books are credited as "`Compiled from StackOverflow documentation`".
+    在这里，注释 `trl.:` 使用 MARC 中的 "translator".
+- 使用逗号", "来分隔作者列表中的每个项目。
+- 您可以使用"`et al.`"缩短作者列表。
+- 我们不允许链接 "创作者"。
+- 对于汇编或混音作品，"创作者 "可能需要说明。例如，"GoalKicker "或 "RIP Tutorial "书籍的作者署名为"`根据 StackOverflow 文档编译`"。
+
+##### 平台和访问说明
+
+- 课程。特别是对于我们的课程列表而言，平台是资源描述的重要组成部分。这是因为课程平台有不同的承受能力和访问模式。虽然我们通常不会列出需要注册的书籍，但许多课程平台都有没有某种账户就无法使用的功能。例如，课程平台包括 Coursera、EdX、Udacity 和 Udemy。当课程依赖于某个平台时，应在括号中列出平台名称。
+- YouTube。我们有许多课程由 YouTube 播放列表组成。我们不会将 YouTube 列为一个平台，我们会尽量列出 YouTube 的创建者，这通常是一个子平台。
+- YouTube 视频。我们通常不会链接到单个 YouTube 视频，除非这些视频长度超过一小时，结构类似于课程或教程。
+- Leanpub。Leanpub 提供多种访问模式的图书。有时，一本书无需注册即可阅读；有时，一本书需要一个 Leanpub 账户才能免费阅读。考虑到图书的质量以及 Leanpub 访问模式的混合性和流动性，我们允许列出后者，并附带 "*"访问说明。(Leanpub account or valid email requested)*`.
 
 
-##### Platforms and Access Notes
+#### 类型
 
-- Courses. Especially for our course lists, the platform is an important part of the resource description. This is because course platforms have different affordances and access models. While we usually won't list a book that requires a registration, many course platforms have affordances that don't work without some sort of account. Example course platforms include Coursera, EdX, Udacity, and Udemy. When a course depends on a platform, the platform name should be listed in parentheses.
-- YouTube. We have many courses which consist of YouTube playlists. We do not list YouTube as a platform, we try to list the YouTube creator, which is often a sub-platform.
-- YouTube videos. We usually don't link to individual YouTube videos unless they are more than an hour long and are structured like a course or a tutorial.
-- Leanpub. Leanpub hosts books with a variety of access models. Sometimes a book can be read without registration; sometimes a book requires a Leanpub account for free access. Given quality of the books and the mixture and fluidity of Leanpub access models, we permit listing of the latter with the access note `*(Leanpub account or valid email requested)*`.
+决定一个资源属于哪个列表的首要原则是看该资源是如何描述自己的。如果它自称是一本书，那么它可能就是一本书。
 
 
-#### Genres
+##### 我们没有列出的类型
 
-The first rule in deciding which list a resource belongs in is to see how the resource describes itself. If it calls itself a book, then maybe it's a book.
+由于互联网浩瀚无边，我们不将以下资源列入列表：
 
+- 博客
+- 博文
+- 文章
+- 网站（除了那些包含大量我们列出的项目的网站）。
+- 非课程或截屏的视频。
+- 书籍章节
+- 书中的预告样本
+- IRC 或 Telegram 频道
+- Slacks 或邮件列表
 
-##### Genres we don't list
-
-Because the Internet is vast, we don't include in our lists:
-
-- blogs
-- blog posts
-- articles
-- websites (except for those that host LOTS of items that we list).
-- videos that aren't courses or screencasts.
-- book chapters
-- teaser samples from books
-- IRC or Telegram channels
-- Slacks or mailing lists
-
-Our competitive programming lists are not as strict about these exclusions. The scope of the repo is determined by the community; if you want to suggest a change or addition to the scope, please use an issue to make the suggestion.
+我们的竞争性编程列表对这些排除项的要求并不严格。repo 的范围由社区决定；如果您想对范围提出修改或补充建议，请使用问题来提出建议。
 
 
-##### Books vs. Other Stuff
+##### 图书与其他内容
 
-We're not that fussy about book-ness. Here are some attributes that signify that a resource is a book:
+我们对书籍的性质并不那么挑剔。以下是表明资源是图书的一些属性：
 
-- it has an ISBN (International Standard Book Number)
-- it has a Table of Contents
-- a downloadable version is offered, especially ePub files.
-- it has editions
-- it doesn't depend on interactive content or videos
-- it tries to comprehensively cover a topic
-- it's self-contained
+- 有 ISBN（国际标准书号）
+- 有目录
+- 提供可下载版本，尤其是 ePub 文件。
+- 有版本
+- 不依赖互动内容或视频
+- 试图全面涵盖一个主题
+- 自成一体
 
-There are lots of books that we list that don't have these attributes; it can depend on context.
-
-
-##### Books vs. Courses
-
-Sometimes these can be hard to distinguish!
-
-Courses often have associated textbooks, which we would list in our books lists. Courses have lectures, exercises, tests, notes or other didactic aids. A single lecture or video by itself is not a course. A powerpoint is not a course.
+我们列出的很多书籍都不具备这些属性；这可能取决于具体情况。
 
 
-##### Interactive Tutorials vs. Other stuff
+##### 图书与课程
 
-If you can print it out and retain its essence, it's not an Interactive Tutorial.
+有时这两者很难区分！
+
+课程通常有相关的教科书，我们会将其列在书籍列表中。课程有讲座、练习、测试、笔记或其他教学辅助材料。单个讲座或视频本身不是一门课程。Powerpoint 也不是一门课程。
 
 
-### Automation
+##### 互动教程与其他内容
 
-- Formatting rules enforcement is automated via [GitHub Actions](https://github.com/features/actions) using [fpb-lint](https://github.com/vhf/free-programming-books-lint) (see [`.github/workflows/fpb-lint.yml`](../.github/workflows/fpb-lint.yml))
-- URL validation uses [awesome_bot](https://github.com/dkhamsing/awesome_bot)
-- To trigger URL validation, push a commit that includes a commit message containing `check_urls=file_to_check`:
+如果可以打印出来并保留其精髓，那就不是互动教程。
 
-    ```properties
+
+###自动化
+
+- 通过 [GitHub 操作] 自动执行格式化规则(https://github.com/features/actions) 使用 [fpb-lint](https://github.com/vhf/free-programming-books-lint) (see [`.github/workflows/fpb-lint.yml`](../.github/workflows/fpb-lint.yml))
+- URL 验证使用 [awesome_bot](https://github.com/dkhamsing/awesome_bot)
+- 要触发 URL 验证，请推送包含提交信息的提交，信息中应包含 `check_urls=file_to_check`:
+
+    ```属性
     check_urls=free-programming-books.md free-programming-books-zh.md
     ```
 
-- You may specify more than one file to check, using a single space to separate each entry.
-- If you specify more than one file, results of the build are based on the result of the last file checked. You should be aware that you may get passing green builds due to this so be sure to inspect the build log at the end of the Pull Request by clicking on "Show all checks" -> "Details".
+- 您可以指定多个要检查的文件，每个条目之间用一个空格隔开。
+- 如果您指定了多个文件，构建结果将基于最后检查的文件的结果。因此，请务必点击 "显示所有检查"->"详细信息"，在拉动请求的最后检查构建日志。
